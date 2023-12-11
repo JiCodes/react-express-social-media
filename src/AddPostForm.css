@@ -1,0 +1,46 @@
+
+.input-bar {
+  grid-area: input-bar;
+
+  background-color: #e6e7e6;
+}
+
+.input-form {
+  display: grid;
+  row-gap: 0.5rem;
+
+  min-width: 35rem;
+  padding: 2rem;
+}
+
+.input-error-message {
+  color: red;
+  font-size: 0.8rem;
+  background-color: #ff000011;
+  padding: 0 0.5rem;
+}
+.input-field {
+  padding: 0.5rem;
+  border: 1px solid #efecfe;
+  border-radius: 0.5rem;
+}
+
+.input-field:focus {
+  outline: none;
+  border: 1px solid #e5ccf4;
+}
+
+.input-button {
+  padding: 0.5rem;
+  border: 1px solid #efecfe;
+  border-radius: 0.5rem;
+
+  color: #a080e1;
+  background-color: #e5ccf4;
+}
+
+.input-button:hover {
+  cursor: pointer;
+  color: #e5ccf4;
+  background-color: #a080e1;
+}

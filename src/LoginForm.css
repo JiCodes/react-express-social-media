@@ -1,0 +1,110 @@
+.login-waiting {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  align-self: center;
+
+  min-width: 18.5rem;
+  max-width: 36rem;
+  margin: 5rem 2em;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+  background-color: #fff;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 2rem 0;
+}
+
+.login-title {
+  grid-column: 3 / span 8;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.login-form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  row-gap: 0.5rem;
+}
+
+.login-form > * {
+  grid-column: 3 / span 8;
+}
+
+.login-form > input {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-error-message {
+  padding: 0 0.5rem;
+
+  color: red;
+  background-color: #ff000011;
+
+  font-size: 0.8rem;
+}
+.login-button {
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin: auto 0 2rem;
+}
+
+.footer p {
+  grid-column: 3 / span 8;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+@media screen and (min-width: 48rem) {
+  .login-card {
+    max-width: 58.5rem;
+  }
+
+  .login-title {
+    grid-column: 2 / span 10;
+  }
+
+  .login-form label {
+    grid-column: 2 / span 1;
+    margin: 1rem 0 0.5rem 0;
+    padding: 0.5rem 0;
+  }
+
+  .login-form > input {
+    grid-column: 3 / span 9;
+    margin: 1rem 0 0.5rem 0.5rem;
+  }
+
+  .login-error-message { 
+    grid-column: 2 / span 10;
+  }
+
+  .login-button {
+    grid-column: 2 / span 10;
+    margin-top: 1rem;
+  }
+
+  .footer p {
+    grid-column: 2 / span 10;
+  }
+}

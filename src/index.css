@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 35rem;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  background-color: #efecfe;
+}
+
+#root {
+  width: 100%;
+  min-width: 35rem;
+  height: 100%;
+}

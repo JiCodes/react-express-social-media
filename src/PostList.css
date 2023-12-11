@@ -1,0 +1,48 @@
+.post-list {
+  grid-area: post-list;
+
+  min-width: 35rem;
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+  overflow-y: scroll;
+}
+
+.post-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  min-width: 35rem;
+
+  font-size: 1.2rem;
+}
+
+.post-item {
+  display: flex;
+  gap: 1rem;
+
+  min-width: 28rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-avator {
+  margin-top: 0.5rem;
+}
+
+.post-poster {
+  color: #666;
+}
+
+.post-poster::after {
+  content: ":";
+}
+
+.post-text {
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
