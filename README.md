@@ -46,7 +46,7 @@ git clone https://github.com/JiCodes/react-express-social-media.git
 2. Navigate to the project folder:
 
 ```bash
-cd social-media
+cd react-express-social-media
 ```
 
 3. Install dependencies for the frontend and backend:
